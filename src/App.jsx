@@ -23,7 +23,7 @@ function App() {
                 key={flower.id}
                 className={flower.is_favorite ? "favorite" : null}
               >
-                {" "}
+            
                 {flower.name}
               </li>
             );
